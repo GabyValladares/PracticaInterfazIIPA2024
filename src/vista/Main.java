@@ -6,6 +6,7 @@ package vista;
 
 import modelo.Cuadrado;
 import modelo.FiguraGeometrica;
+import modelo.Octagono;
 
 /**
  *
@@ -13,18 +14,18 @@ import modelo.FiguraGeometrica;
  */
 public class Main {
     public static void main(String[] args) {
+        // Crear una instancia de Octágono
+        Octagono octagono = new Octagono();
+        octagono.setLado(5.0);   // Establecer el valor del lado
+
+        // Mostrar los datos del octágono
+        System.out.println(octagono.toString());
         
-       //INSTANCIAR OBJETO
-       Cuadrado c1=new Cuadrado(9);
+        // Calcular y mostrar el área
+        octagono.area();
         
-        
-        
-        
-        
-        
-        
-        
-        
-    }  
-    
+        // Calcular y mostrar el perímetro
+        double perimetro = octagono.perimetro();
+        System.out.println("El perímetro del octágono es: " + perimetro);
+    }
 }
