@@ -5,9 +5,14 @@
 package vista;
 
 import modelo.Cuadrado;
+
+import modelo.FiguraGeometrica;
+import modelo.Trapecio;
+
 import modelo.Rectangulo;
 
 import modelo.Hexagono;
+
 
 
 /**
@@ -18,6 +23,18 @@ public class Main {
     public static void main(String[] args) {
 
         
+
+       //INSTANCIAR OBJETO PARA MOSTRAR RESULTADOS
+       
+        Trapecio t1= new Trapecio(5,8,6);   
+        //System.out.println("DATOS CON toString ");
+        System.out.println(t1.toString());
+        t1.toString();
+        t1.area();
+        
+        
+    }  
+
        //INSTANCIAR OBJETO
        Cuadrado c1=new Cuadrado(9);
        

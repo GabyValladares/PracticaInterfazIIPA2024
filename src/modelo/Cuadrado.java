@@ -29,6 +29,8 @@ public class Cuadrado implements FiguraGeometrica {
     public void setLado(double lado) {
         this.lado = lado;
     }
+    
+    
     //MÉTODOS DE REGLA DE NEGOCIO 
 
     @Override
