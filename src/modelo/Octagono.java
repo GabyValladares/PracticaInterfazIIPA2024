@@ -35,6 +35,13 @@ public class Octagono implements FiguraGeometrica {
 
     @Override
     public void area() {
+        // ladoAlCuadrado = Math.pow(getLado(), 2);
+// raizDeDos = Math.sqrt(2);
+//  suma = 1 + raizDeDos;
+// multiplicacion = 2 * suma;
+//  resultado = multiplicacion * ladoAlCuadrado;
+        
+        
         double resultado = 2 * (1 + Math.sqrt(2)) * Math.pow(getLado(), 2);
         System.out.println("El área del octágono es: " + resultado);
     }
