@@ -5,6 +5,7 @@
 package vista;
 
 import modelo.Cuadrado;
+import modelo.Rectangulo;
 import modelo.FiguraGeometrica;
 
 /**
@@ -16,12 +17,14 @@ public class Main {
         
        //INSTANCIAR OBJETO
        Cuadrado c1=new Cuadrado(9);
+       
+       Rectangulo r1=new Rectangulo(15, 6);
+       
+       
         
         
         
-        
-        
-        
+     
         
         
         
