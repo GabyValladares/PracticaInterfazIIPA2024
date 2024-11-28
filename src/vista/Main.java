@@ -5,8 +5,15 @@
 package vista;
 
 import modelo.Cuadrado;
+
 import modelo.FiguraGeometrica;
 import modelo.Trapecio;
+
+import modelo.Rectangulo;
+
+import modelo.Hexagono;
+
+
 
 /**
  *
@@ -14,7 +21,9 @@ import modelo.Trapecio;
  */
 public class Main {
     public static void main(String[] args) {
+
         
+
        //INSTANCIAR OBJETO PARA MOSTRAR RESULTADOS
        
         Trapecio t1= new Trapecio(5,8,6);   
@@ -25,5 +34,33 @@ public class Main {
         
         
     }  
-    
+
+       //INSTANCIAR OBJETO
+       Cuadrado c1=new Cuadrado(9);
+       
+       Rectangulo r1=new Rectangulo(15, 6);
+       
+       
+
+
+        Hexagono hexagono = new Hexagono(8);
+
+        System.out.println(hexagono);
+
+        hexagono.area();
+
+        System.out.println("El perímetro del Hexágono es: " + hexagono.perimetro());
+    }
 }
+
+
+        
+        
+        
+     
+        
+        
+        
+      
+    
+
