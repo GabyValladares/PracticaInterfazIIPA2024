@@ -4,8 +4,7 @@
  */
 package vista;
 
-import modelo.Cuadrado;
-import modelo.FiguraGeometrica;
+import modelo.Hexagono;
 
 /**
  *
@@ -13,9 +12,17 @@ import modelo.FiguraGeometrica;
  */
 public class Main {
     public static void main(String[] args) {
-        
-       //INSTANCIAR OBJETO
-       Cuadrado c1=new Cuadrado(9);
+
+        Hexagono hexagono = new Hexagono(8);
+
+        System.out.println(hexagono);
+
+        hexagono.area();
+
+        System.out.println("El perímetro del Hexágono es: " + hexagono.perimetro());
+    }
+}
+
         
         
         
