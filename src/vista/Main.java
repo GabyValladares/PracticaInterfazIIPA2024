@@ -15,12 +15,10 @@ import modelo.Trapecio;
 public class Main {
     public static void main(String[] args) {
         
-       //INSTANCIAR OBJETO
-       //Cuadrado c1=new Cuadrado(9);
-        
+       //INSTANCIAR OBJETO PARA MOSTRAR RESULTADOS
        
         Trapecio t1= new Trapecio(5,8,6);   
-        System.out.println("DATOS CON toString ");
+        //System.out.println("DATOS CON toString ");
         System.out.println(t1.toString());
         t1.toString();
         t1.area();

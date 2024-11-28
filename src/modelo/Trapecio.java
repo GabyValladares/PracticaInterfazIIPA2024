@@ -69,7 +69,7 @@ public class Trapecio implements FiguraGeometrica{
     public void area() {
         //IMPLEMENTACIÓN DE BLOQUE PERSONALIZADA
         double resultado = ((getBaseUno() + getBaseDos())*getAltura())/2;
-        System.out.println("El área del Trapecio es:" + resultado);
+        System.out.println("El área del Trapecio es: " + resultado);
     }
 
     @Override
