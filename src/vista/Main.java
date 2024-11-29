@@ -33,7 +33,7 @@ public class Main {
         t1.area();
         
         
-    }  
+    
 
        //INSTANCIAR OBJETO
        Cuadrado c1=new Cuadrado(9);
