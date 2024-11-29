@@ -4,6 +4,7 @@
  */
 package vista;
 
+import modelo.Circulo;
 import modelo.Cuadrado;
 import modelo.FiguraGeometrica;
 
@@ -12,19 +13,17 @@ import modelo.FiguraGeometrica;
  * @author Usuario
  */
 public class Main {
+
     public static void main(String[] args) {
-        
-       //INSTANCIAR OBJETO
-       Cuadrado c1=new Cuadrado(9);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    }  
-    
+
+        //INSTANCIAR OBJETO
+        Cuadrado c1 = new Cuadrado(9);
+
+        Circulo ci = new Circulo();
+        ci.setNombre("Circulo");
+        ci.setRadio(5);
+        System.out.println(ci.toString());
+       
+
+    }
 }
